@@ -1,1 +1,65 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  height: 150px;
+  width: 100px;
+}
+
+nav {
+  background-color: #00d1b2;
+  color: white;
+  height: 55px;
+}
+
+.beer-element {
+  border-collapse: separate;
+  border-radius: 15px !important;
+  font-size: 13px;
+  margin-bottom: 5px;
+  // margin-left: 5px;
+  // margin-right: 5px;
+  margin-top: 5px;
+  outline: 1px solid #808080;
+  overflow: hidden;
+  width: 300px;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.favourites {
+  font-weight: lighter;
+}
+
+.fa-star-o, .fa-car {
+  color: #00d1b2;
+}
+
+.options {
+  float: left;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.star {
+  float: right;
+  height: 30px;
+}
+
+#title {
+  float: left;
+  font-size: 55px;
+  font-weight: lighter !important;
+}
