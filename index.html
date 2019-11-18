@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Beans Love Beers</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+      <!-- starts nav bar-->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand mr-auto" id="title">Beans Love Beers</a>
+        <!-- <span class="options">
+          <a class="navbar-brand"><strong>Home<strong></a>
+          <a class="navbar-brand">Favourites</a>
+        </span> -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item home">
+                <a class="nav-link"><strong>Home</strong></a>
+            </li>
+            <li class="nav-item favourites">
+                <a class="nav-link">Favourites</a>
+            </li>
+        </ul>
+      </nav> <!-- ends nav bar-->
+
+      <!-- search bar row-->
+      <div class="row search">
+        <div class="col-6">
+          <div class="input-group mb-4">
+            <input type="search" placeholder="Search for beer..." aria-describedby="button-addon5" class="form-control">
+            <div class="input-group-append">
+              <button id="button-addon5" type="submit" class="btn btn-primary"><span>Search</span></button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ends search bar row-->
+
+      <div class="container-fluid beers">
+
+        <div class="row row-1"> <!-- row #1-->
+
+          <!--buzz beer element-->
+          <div class="col-3 beer-element">
+            <div class="row">
+              <div class="col-12 star">
+                <p class="star"><i class="fa fa-star-o"></i></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=col-6>
+                <img src="public/buzz-beer.png">
+              </div>
+              <div class=col-6>
+                <p class="description"><strong>Buzz</strong></p>
+                <p class="description">A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once....</p>
+              </div>
+            </div>
+          </div>
+
+          <!--trashy blonde beer element-->
+          <div class="col-3 beer-element">
+            <div class="row">
+              <div class="col-12 star">
+                <p class="star"><i class="fa fa-star-o"></i></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=col-6>
+                <img src="public/trashy-blonde-beer.png">
+              </div>
+              <div class=col-6>
+                <p class="description"><strong>Trashy Blonde</strong></p>
+                <p class="description">A titilating, neurotic, peroxide punk of a Pale Ale. Combining attitude, style, substance, and a li...</p>
+              </div>
+            </div>
+          </div>
+
+          <!--berliner weisse beer element-->
+          <div class="col-3 beer-element">
+            <div class="row">
+              <div class="col-12 star">
+                <p class="star"><i class="fa fa-star-o"></i></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=col-6>
+                <img src="public/berliner-weisse-beer.png">
+              </div>
+              <div class=col-6>
+                <p class="description"><strong>Berliner Weisse With Yuzu - B-Sides</strong></p>
+                <p class="description">Japanese citrus fruit intensifies the sour nature of this German classic....</p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!--ends row #1-->
+
+        <div class="row row-2"> <!--starts row #2-->
+
+          <!--pilsen lager beer element-->
+          <div class="col-3 beer-element">
+            <div class="row">
+              <div class="col-12 star">
+                <p class="star"><i class="fa fa-star-o"></i></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=col-6>
+                <img src="public/pilsen-lager-beer.png">
+              </div>
+              <div class=col-6>
+                <p class="description"><strong>Pilsen Lager</strong></p>
+                <p class="description">Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provid...</p>
+              </div>
+            </div>
+          </div>
+
+          <!--aver-brown-beer element-->
+          <div class="col-3 beer-element">
+            <div class="row">
+              <div class="col-12 star">
+                <p class="star"><i class="fa fa-star-o"></i></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=col-6>
+                <img src="public/avery-brown-beer.png">
+              </div>
+              <div class=col-6>
+                <p class="description"><strong>Avery Brown Dredge</strong></p>
+                <p class="description">An imperial pilsner in collaboration with beer writers. Tradition. Homage. Revolution. We wanted to ...</p>
+              </div>
+            </div>
+          </div>
+
+          <!--electric india beer element-->
+          <div class="col-3 beer-element">
+            <div class="row">
+              <div class="col-12 star">
+                <p class="star"><i class="fa fa-star-o"></i></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=col-6>
+                <img src="public/electric-india-beer.png">
+              </div>
+              <div class=col-6>
+                <p class="description"><strong>Electric India</strong></p>
+                <p class="description">Re-brewed as a spring seasonal, this beer - which appeared originally as an Equity Punk shareholder ...</p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!--ends row-->
+
+      </div>
+    </body>
+</html>
