@@ -3,7 +3,7 @@
 
 Challenge: Given the image below, recreate it using frontend frameworks (functionality not required)
 
-![Original Image](Interview-Challenge-Image.png)
+![Original Image](public/Interview-Challenge-Image.png)
 
 ##### Technologies Used:#####
 1. HTML
