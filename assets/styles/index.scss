@@ -37,7 +37,7 @@ nav {
   font-weight: lighter;
 }
 
-.fa-star-o, .fa-car {
+.fa-star-o {
   color: #00d1b2;
 }
 
@@ -54,8 +54,9 @@ nav {
 }
 
 .star {
-  float: right;
+  text-align: right;
   height: 30px;
+  padding: 5px;
 }
 
 #title {
